@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(Sprite))]
 [RequireComponent(typeof(Renderer))]
 public abstract class Interactable : MonoBehaviour
 {

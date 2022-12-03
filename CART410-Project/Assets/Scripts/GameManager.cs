@@ -21,16 +21,6 @@ public class GameManager : MonoBehaviour
      public AudioSource soundClick;
      public AudioSource soundEnd;
 
-    // Interactables
-
-    // objects
-
-
-    // characters
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
