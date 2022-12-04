@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Arman 1
+  m_EditorClassIdentifier: 
+  theText: "I am a supporter of the Advancement Party and I disagree with many policies
+    the Improvement Party has, but I\u2019m glad I came to learn more about what
+    they stand for. With so much division and animosity around politics, it\u2019s
+    important not to lose one\u2019s head."
+  nextInteraction: {fileID: 0}
+  previousInteraction: {fileID: 11400000, guid: 767039e1e28b77845a6b4da6d3ee4dbb, type: 2}
+  option1: {fileID: 0}
+  option2: {fileID: 0}

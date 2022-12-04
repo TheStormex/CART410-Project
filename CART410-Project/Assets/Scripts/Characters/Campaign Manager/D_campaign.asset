@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_campaign
+  m_EditorClassIdentifier: 
+  theText: "Hi, welcome to the Improvement Party\u2019s temporary campaign office.
+    Feel free to take a look around and chat with people."
+  nextInteraction: {fileID: 0}
+  previousInteraction: {fileID: 0}
+  option1: {fileID: 11400000, guid: 8fcce1c034c21c64a86c57955124f7d2, type: 2}
+  option2: {fileID: 11400000, guid: f37eeb1744a9e78448dbd56e52dbc2df, type: 2}

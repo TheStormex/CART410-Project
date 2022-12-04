@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: "D_Fran\xE7ois"
+  m_EditorClassIdentifier: 
+  theText: 'Well, hello there. Welcome to the campaign office. So nice to see more
+    young people getting involved with politics again. It reminds me of my early
+    years. I just came back from doing some door-to-door. '
+  nextInteraction: {fileID: 11400000, guid: 01bfd219f868c754988d8a246d35a948, type: 2}
+  previousInteraction: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}

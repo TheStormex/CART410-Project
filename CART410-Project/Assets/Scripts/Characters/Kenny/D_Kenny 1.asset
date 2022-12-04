@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Kenny 1
+  m_EditorClassIdentifier: 
+  theText: If one is younger than 14, then they must ask their parents to vote. However,
+    once one attains 14, there should be no obstacles to voting. It can be done at
+    high schools, starting the ritual, you know? They currently do fake votes at
+    schools, so why not real votes? A lot of things are age-restricted to protect
+    the children. However, how is voting harmful? Who does this restriction actually
+    protect?
+  nextInteraction: {fileID: 11400000, guid: 97066c1e55278bc4a908a7c9b3291f32, type: 2}
+  previousInteraction: {fileID: 11400000, guid: 219ccead71d08c546856c49b2bb90905, type: 2}
+  option1: {fileID: 0}
+  option2: {fileID: 0}

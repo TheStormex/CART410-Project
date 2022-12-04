@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
             {
                 textBoxLast.gameObject.SetActive(false);
             }
-            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1 != null)
+            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1 != null && currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.locked == false)
             {
                 textBoxButton1.gameObject.SetActive(true);
                 textBoxButton1.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.theOption;
@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
             {
                 textBoxButton1.gameObject.SetActive(false);
             }
-            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2 != null)
+            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2 != null && currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.locked == false)
             {
                 textBoxButton2.gameObject.SetActive(true);
                 textBoxButton2.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.theOption;

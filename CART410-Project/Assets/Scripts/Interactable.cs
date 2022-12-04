@@ -7,6 +7,7 @@ public class Interactable : MonoBehaviour
 {
     public Interaction startingInteraction;
     public Interaction currentInteraction;
+    public DialogueOption unlocked;
     public string currentText;
     public string interactableName;
 
@@ -25,5 +26,11 @@ public class Interactable : MonoBehaviour
         {
             currentText = currentInteraction.theText;
         }
+        if (unlocked != null)
+        {
+            unlocked.locked = false;
+        }
+
+
     }
 }

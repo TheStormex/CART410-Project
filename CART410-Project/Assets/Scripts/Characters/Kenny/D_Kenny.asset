@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Kenny
+  m_EditorClassIdentifier: 
+  theText: "In my youth, my family encouraged me to vote, this created a ritual of
+    voting and it stayed with me my whole life. Back in the old days, most people
+    were unable to vote, such as women, prisoners, people who did not own land, etc.
+    Now, it\u2019s young people who are still restricted by the system. I want there
+    to be no minimum voting age."
+  nextInteraction: {fileID: 11400000, guid: 32264b7938714014d9b0962c3629876b, type: 2}
+  previousInteraction: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}

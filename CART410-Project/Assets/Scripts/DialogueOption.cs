@@ -7,4 +7,5 @@ public class DialogueOption : ScriptableObject
 {
     public string theOption;
     public Interaction resultingInteraction;
+    public bool locked = false;
 }

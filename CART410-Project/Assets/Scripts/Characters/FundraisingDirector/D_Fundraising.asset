@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Fundraising
+  m_EditorClassIdentifier: 
+  theText: "Hi, I am the fundraising director. I handle all of the money of the campaign.
+    I organize fundraising events to get as much money as possible and I plan how
+    the money is used to maximise the effectiveness of our campaign all while making
+    sure we don\u2019t break any election laws regarding donations."
+  nextInteraction: {fileID: 0}
+  previousInteraction: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}

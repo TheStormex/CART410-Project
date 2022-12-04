@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &23225469
 RectTransform:
   m_ObjectHideFlags: 0
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: ce8dc09780fa2954b936ad477851bf29, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -550,7 +550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &128575848
 RectTransform:
   m_ObjectHideFlags: 0
@@ -968,7 +968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: e752124feea6a8847b660c11fde2b516, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -1266,7 +1266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: ce8dc09780fa2954b936ad477851bf29, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -1564,7 +1564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: a2a4f889744837f43906995e213f108c, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -1713,7 +1713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 6b6d414e81052bc458f08f2495c1ccce, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -1862,7 +1862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 219ccead71d08c546856c49b2bb90905, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -2011,7 +2011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: ce8dc09780fa2954b936ad477851bf29, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -2160,7 +2160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: efa49b4ffc943e54b89eb7dd57d261da, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -2309,7 +2309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: ce8dc09780fa2954b936ad477851bf29, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -2573,7 +2573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 69917564ec4b9eb49afa7c61b919f435, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -2849,7 +2849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 0a3b2756f61a09a45961ac619a66ebb5, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -3077,7 +3077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: e149ade901be2cb4ea0ce82f1061fcdd, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -3305,7 +3305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 47610f87a9c96a94c8e155556985e669, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -3454,7 +3454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 6fd13250b0fa8aa49a3097935b9fc8a8, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -3730,7 +3730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 1eee5e3dd4a6c234098ba3887235a68a, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -3879,7 +3879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 1228b7b6381f480488f1a561274c2ee3, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -4177,7 +4177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 7007b85b9e2fb414bbde60f133427a56, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -4817,7 +4817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 168f1396ab099fb4dad84a03732a6052, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -5302,7 +5302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: f19fe81211b8686489e811d1facc0192, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -5530,7 +5530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: a0400df4326d067468be2efcbe2c4970, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -5679,7 +5679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 68fb6b3c8f71226458bf1d4d72eafc1a, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -5828,7 +5828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: f3e6c752002801e49a3b6d9ad51c5e2e, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -5977,7 +5977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 3d80b53ba9dc3ef4fa8ccdde1a386b4e, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -6270,7 +6270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 45a32828f7bca7349a3578889e7f53b2, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -6552,7 +6552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: ce8dc09780fa2954b936ad477851bf29, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -6701,7 +6701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: ce8dc09780fa2954b936ad477851bf29, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -6929,7 +6929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 47c29f346b5bd0846be6e6cfe07c7e21, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -7211,7 +7211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 5f2e2ccd59856d9409bd95aa871d9277, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -7360,7 +7360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 7911f5b6beb8ea34e932af40d4585935, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -7509,7 +7509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: ce8dc09780fa2954b936ad477851bf29, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -7658,7 +7658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: ce8dc09780fa2954b936ad477851bf29, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -7807,7 +7807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 767039e1e28b77845a6b4da6d3ee4dbb, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -7956,7 +7956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 9aee3134d4c96434690d522898a3d791, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 

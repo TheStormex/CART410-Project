@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_JSWizard 1
+  m_EditorClassIdentifier: 
+  theText: But I would like to add that the government needs to provide more resources
+    in more languages. When I immigrated here, I did not understand the local language
+    well. None of the parties really offered information about themselves in any
+    language besides the local one.
+  nextInteraction: {fileID: 11400000, guid: 81a1050f54f5bfe43874f5e61bdb41b7, type: 2}
+  previousInteraction: {fileID: 11400000, guid: 168f1396ab099fb4dad84a03732a6052, type: 2}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
