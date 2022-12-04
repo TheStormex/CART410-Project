@@ -226,8 +226,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 29d33f0fc5a8554449eee4eb53a81774, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 66534071}
   m_Layer: 5
   m_Name: buttonSign7
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -452,7 +452,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 66534072}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 66534069}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &66534072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,8 +606,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 29d33f0fc5a8554449eee4eb53a81774, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -784,7 +796,7 @@ GameObject:
   - component: {fileID: 194002478}
   m_Layer: 5
   m_Name: buttonMount
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -851,7 +863,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 194002479}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 194002476}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &194002479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,7 +928,7 @@ GameObject:
   - component: {fileID: 207607101}
   m_Layer: 5
   m_Name: buttonCandidate
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -971,7 +995,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 207607102}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 207607099}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &207607102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1024,7 +1060,7 @@ GameObject:
   - component: {fileID: 210740914}
   m_Layer: 5
   m_Name: buttonSign8
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1091,7 +1127,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 210740915}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 210740912}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &210740915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,7 +1192,7 @@ GameObject:
   - component: {fileID: 254016488}
   m_Layer: 5
   m_Name: buttonCommunication
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1211,7 +1259,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 254016489}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 254016486}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &254016489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1264,7 +1324,7 @@ GameObject:
   - component: {fileID: 258691383}
   m_Layer: 5
   m_Name: buttonBathroom
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1331,7 +1391,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 258691384}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 258691381}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &258691384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1384,7 +1456,7 @@ GameObject:
   - component: {fileID: 298269139}
   m_Layer: 5
   m_Name: buttonPercy
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1451,7 +1523,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 298269140}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 298269137}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &298269140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1504,7 +1588,7 @@ GameObject:
   - component: {fileID: 383414087}
   m_Layer: 5
   m_Name: buttonKenny
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1571,7 +1655,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 383414088}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 383414085}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &383414088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1624,7 +1720,7 @@ GameObject:
   - component: {fileID: 387134496}
   m_Layer: 5
   m_Name: buttonSign2
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1691,7 +1787,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 387134497}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 387134494}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: sign
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &387134497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1744,7 +1852,7 @@ GameObject:
   - component: {fileID: 463248099}
   m_Layer: 5
   m_Name: buttonBin
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1811,7 +1919,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 463248100}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 463248097}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &463248100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1864,7 +1984,7 @@ GameObject:
   - component: {fileID: 463900442}
   m_Layer: 5
   m_Name: buttonSign3
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1931,7 +2051,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 463900443}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 463900440}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &463900443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,7 +2143,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBoxCanvas: {fileID: 1542819806}
   textBoxDialogue: {fileID: 1759173420}
+  textBoxBackground: {fileID: 2084543702}
   textBoxName: {fileID: 165617428}
+  textBoxLast: {fileID: 1667378678}
+  textBoxNext: {fileID: 1841539065}
   textBoxButton1: {fileID: 23225470}
   textBoxButton2: {fileID: 128575849}
   soundWalk: {fileID: 2120141776}
@@ -2021,6 +2156,10 @@ MonoBehaviour:
   soundHover: {fileID: 53808321}
   soundClick: {fileID: 624692210}
   soundEnd: {fileID: 1317891267}
+  buttonCandidate: {fileID: 0}
+  buttonCampaign: {fileID: 0}
+  buttonPercy: {fileID: 0}
+  buttonTanner: {fileID: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -2092,7 +2231,7 @@ GameObject:
   - component: {fileID: 533720339}
   m_Layer: 5
   m_Name: buttonSartre
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2159,7 +2298,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 533720340}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 533720337}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &533720340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2339,7 +2490,7 @@ GameObject:
   - component: {fileID: 630807948}
   m_Layer: 5
   m_Name: buttonRecycle
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2406,7 +2557,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 630807949}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 630807946}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &630807949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2538,7 +2701,7 @@ GameObject:
   - component: {fileID: 723802288}
   m_Layer: 5
   m_Name: buttonNaomie
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2605,7 +2768,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 723802289}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 723802286}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &723802289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2737,7 +2912,7 @@ GameObject:
   - component: {fileID: 756865861}
   m_Layer: 5
   m_Name: buttonMap
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2804,7 +2979,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 756865862}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 756865859}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &756865862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2857,7 +3044,7 @@ GameObject:
   - component: {fileID: 765484354}
   m_Layer: 5
   m_Name: buttonCass
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2924,7 +3111,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 765484355}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765484352}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &765484355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3104,7 +3303,7 @@ GameObject:
   - component: {fileID: 848043418}
   m_Layer: 5
   m_Name: buttonCampaignManager
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3171,7 +3370,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 848043419}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 848043416}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &848043419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3224,7 +3435,7 @@ GameObject:
   - component: {fileID: 994641939}
   m_Layer: 5
   m_Name: buttonFrancois
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3291,7 +3502,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 994641940}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 994641937}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &994641940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3344,7 +3567,7 @@ GameObject:
   - component: {fileID: 1018155507}
   m_Layer: 5
   m_Name: buttonEvent
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3411,7 +3634,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1018155508}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1018155505}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1018155508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3464,7 +3699,7 @@ GameObject:
   - component: {fileID: 1033830897}
   m_Layer: 5
   m_Name: buttonCody
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3531,7 +3766,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1033830898}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1033830895}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1033830898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3584,7 +3831,7 @@ GameObject:
   - component: {fileID: 1039666074}
   m_Layer: 5
   m_Name: buttonPolitical
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3651,7 +3898,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1039666075}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1039666072}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1039666075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3897,7 +4156,7 @@ GameObject:
   - component: {fileID: 1131687560}
   m_Layer: 5
   m_Name: buttonField
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3964,7 +4223,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1131687561}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1131687558}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1131687561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4017,7 +4288,7 @@ GameObject:
   - component: {fileID: 1136736906}
   m_Layer: 5
   m_Name: buttonJSWizard
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4084,7 +4355,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1136736907}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1136736904}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1136736907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4473,7 +4756,7 @@ GameObject:
   - component: {fileID: 1332157835}
   m_Layer: 5
   m_Name: buttonPropag
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4540,7 +4823,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1332157836}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1332157833}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1332157836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4672,7 +4967,7 @@ GameObject:
   - component: {fileID: 1380802941}
   m_Layer: 5
   m_Name: buttonFundraising
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4739,7 +5034,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1380802942}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1380802939}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1380802942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4792,7 +5099,7 @@ GameObject:
   - component: {fileID: 1383940148}
   m_Layer: 5
   m_Name: buttonAlex
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4859,7 +5166,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1383940149}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1383940146}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1383940149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4912,7 +5231,7 @@ GameObject:
   - component: {fileID: 1478021625}
   m_Layer: 5
   m_Name: buttonChaby
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4979,7 +5298,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1478021626}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1478021623}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1478021626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5032,7 +5363,7 @@ GameObject:
   - component: {fileID: 1540037325}
   m_Layer: 5
   m_Name: buttonMeg
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5099,7 +5430,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1540037326}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1540037323}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1540037326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5296,7 +5639,7 @@ GameObject:
   - component: {fileID: 1585724930}
   m_Layer: 5
   m_Name: buttonCompost
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5363,7 +5706,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1585724931}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1585724928}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1585724931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5505,8 +5860,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 29d33f0fc5a8554449eee4eb53a81774, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5537,7 +5892,7 @@ GameObject:
   - component: {fileID: 1679681120}
   m_Layer: 5
   m_Name: buttonSign4
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5604,7 +5959,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1679681121}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1679681118}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1679681121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5657,7 +6024,7 @@ GameObject:
   - component: {fileID: 1739450222}
   m_Layer: 5
   m_Name: buttonSign5
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5724,7 +6091,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1739450223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1739450220}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1739450223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5856,7 +6235,7 @@ GameObject:
   - component: {fileID: 1763190189}
   m_Layer: 5
   m_Name: buttonZaad
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5923,7 +6302,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1763190190}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1763190187}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1763190190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6065,8 +6456,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 29d33f0fc5a8554449eee4eb53a81774, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6097,7 +6488,7 @@ GameObject:
   - component: {fileID: 1852102087}
   m_Layer: 5
   m_Name: buttonMarbles
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6164,7 +6555,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1852102088}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1852102085}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1852102088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6217,7 +6620,7 @@ GameObject:
   - component: {fileID: 1867141248}
   m_Layer: 5
   m_Name: buttonLuka
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6284,7 +6687,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1867141249}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1867141246}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1867141249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6337,7 +6752,7 @@ GameObject:
   - component: {fileID: 1868744360}
   m_Layer: 5
   m_Name: buttonSign6
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6404,7 +6819,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1868744361}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1868744358}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1868744361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6457,7 +6884,7 @@ GameObject:
   - component: {fileID: 1869209490}
   m_Layer: 5
   m_Name: buttonSign1
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6524,7 +6951,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1869209491}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1869209488}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: sign
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1869209491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6577,7 +7016,7 @@ GameObject:
   - component: {fileID: 1882647240}
   m_Layer: 5
   m_Name: buttonArman
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6644,7 +7083,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1882647241}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1882647238}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1882647241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6697,7 +7148,7 @@ GameObject:
   - component: {fileID: 1940320099}
   m_Layer: 5
   m_Name: buttonTanner
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6764,7 +7215,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1940320100}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420030}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TextboxBegins
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1940320097}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1940320100
 MonoBehaviour:
   m_ObjectHideFlags: 0

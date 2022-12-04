@@ -8,7 +8,10 @@ public class GameManager : MonoBehaviour
     // UI elements
     public Canvas textBoxCanvas;
     public Text textBoxDialogue;
+    public Image textBoxBackground;
     public Text textBoxName;
+    public Button textBoxLast;
+    public Button textBoxNext;
     public Button textBoxButton1;
     public Button textBoxButton2;
 
@@ -21,10 +24,20 @@ public class GameManager : MonoBehaviour
      public AudioSource soundClick;
      public AudioSource soundEnd;
 
+    // interactables
+
+    // characters
+    public Button buttonCandidate;
+    public Button buttonCampaign;
+    public Button buttonPercy;
+    public Button buttonTanner;
+
+    private GameObject currentInteractable;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        TextboxClose();
     }
 
     // Update is called once per frame
@@ -32,6 +45,52 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
+    // enable / disable the textbox elements
+    void TextboxOpen()
+    {
+        textBoxBackground.gameObject.SetActive(true);
+        textBoxDialogue.gameObject.SetActive(true);
+        textBoxName.gameObject.SetActive(true);
+        textBoxButton1.gameObject.SetActive(true);
+        textBoxButton2.gameObject.SetActive(true);
+        textBoxLast.gameObject.SetActive(true);
+        textBoxNext.gameObject.SetActive(true);
+    }
+
+    void TextboxClose()
+    {
+        textBoxBackground.gameObject.SetActive(false);
+        textBoxDialogue.gameObject.SetActive(false);
+        textBoxName.gameObject.SetActive(false);
+        textBoxButton1.gameObject.SetActive(false);
+        textBoxButton2.gameObject.SetActive(false);
+        textBoxLast.gameObject.SetActive(false);
+        textBoxNext.gameObject.SetActive(false);
+    }
+
+    // change the content of the textbox to the beginning of the text
+    public void TextboxBegins(GameObject thisInteractable)
+    {
+        currentInteractable = thisInteractable;
+        if (currentInteractable.tag == "character")
+        {
+            playSoundIntPerson();
+        } else
+        if (currentInteractable.tag == "object") {
+            playSoundIntObject();
+        }
+        TextboxOpen();
+    }
+
+    // end the text box, play the end sound, remove current interactable
+    void endInteraction()
+    {
+        TextboxClose();
+        currentInteractable = null;
+        playSoundEnd();
+    }
+
     // play the sounds
      public void playSoundWalk()
     {
