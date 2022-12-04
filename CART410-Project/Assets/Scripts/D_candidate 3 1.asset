@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_candidate 3 1
+  m_EditorClassIdentifier: 
+  theText: 'If I am chosen by the majority of our voters during the election, I will
+    become the local representative of this area and go to the Parliament to fight
+    for the interests of the people here. '
+  nextInteraction: {fileID: 11400000, guid: ed4ef39fb3650f54893e0937934f7f8e, type: 2}
+  previousInteraction: {fileID: 11400000, guid: feebc99fe346ddb4f8b7eb6b5e516968, type: 2}
+  option1: {fileID: 0}
+  option2: {fileID: 0}

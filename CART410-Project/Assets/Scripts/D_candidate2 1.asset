@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_candidate2 1
+  m_EditorClassIdentifier: 
+  theText: "I promise, if I would be elected this time, I will use all my power to
+    represent our wonderful community and to fight for what\u2019s right, both locally
+    and in Parliament. Of course, we cannot guarantee the outcome would be in our
+    favor."
+  nextInteraction: {fileID: 11400000, guid: 80454473bbd1f9c4e8e0ee569dced877, type: 2}
+  previousInteraction: {fileID: 11400000, guid: 2a5e8ad5d61ca234aa356c5ea82d090f, type: 2}
+  option1: {fileID: 0}
+  option2: {fileID: 0}

@@ -43,7 +43,44 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (currentInteractable != null)
+        {
+            textBoxName.text = currentInteractable.name;
+            textBoxDialogue.text = currentInteractable.gameObject.GetComponent<Interactable>().currentText;
+            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.nextInteraction != null)
+            {
+                textBoxNext.gameObject.GetComponentInChildren<Text>().text = "Next";
+            } else
+            {
+                textBoxNext.gameObject.GetComponentInChildren<Text>().text = "Finish";
+            }
+            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.previousInteraction != null)
+            {
+                textBoxLast.gameObject.SetActive(true);
+            }
+            else
+            {
+                textBoxLast.gameObject.SetActive(false);
+            }
+            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1 != null)
+            {
+                textBoxButton1.gameObject.SetActive(true);
+                textBoxButton1.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.theOption;
+
+            } else
+            {
+                textBoxButton1.gameObject.SetActive(false);
+            }
+            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2 != null)
+            {
+                textBoxButton2.gameObject.SetActive(true);
+                textBoxButton2.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.theOption;
+            }
+            else
+            {
+                textBoxButton2.gameObject.SetActive(false);
+            }
+        }
     }
 
     // enable / disable the textbox elements
@@ -72,27 +109,70 @@ public class GameManager : MonoBehaviour
     // change the content of the textbox to the beginning of the text
     public void TextboxBegins(GameObject thisInteractable)
     {
-        currentInteractable = thisInteractable;
-        if (currentInteractable.tag == "character")
+        if (currentInteractable == null)
         {
-            playSoundIntPerson();
-        } else
-        if (currentInteractable.tag == "object") {
-            playSoundIntObject();
+            currentInteractable = thisInteractable;
+            if (currentInteractable.tag == "character")
+            {
+                playSoundIntPerson();
+            }
+            else
+            if (currentInteractable.tag == "object")
+            {
+                playSoundIntObject();
+            }
+            TextboxOpen();
         }
-        TextboxOpen();
     }
 
     // end the text box, play the end sound, remove current interactable
-    void endInteraction()
+    public void endInteraction()
     {
         TextboxClose();
+        currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().startingInteraction;
         currentInteractable = null;
         playSoundEnd();
     }
 
+    // when next / finish button is clicked
+    public void nextFinishButton()
+    {
+        if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.nextInteraction != null)
+        {
+            currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.nextInteraction;
+        }
+        else
+        {
+            endInteraction();
+        }
+    }
+
+    // when previous button is clicked
+    public void previousButton()
+    {
+        if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.previousInteraction != null)
+        {
+            currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.previousInteraction;
+        }
+        else
+        {
+            return;
+        }
+    }
+
+    // when option 1 button is clicked
+    public void option1Clicked()
+    {
+        currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.resultingInteraction;
+    }
+
+    public void option2Clicked()
+    {
+        currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.resultingInteraction;
+    }
+
     // play the sounds
-     public void playSoundWalk()
+    public void playSoundWalk()
     {
         soundWalk.Play();
     }
