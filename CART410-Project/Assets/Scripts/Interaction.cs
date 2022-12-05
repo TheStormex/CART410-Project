@@ -10,5 +10,5 @@ public class Interaction : ScriptableObject
     public Interaction previousInteraction;
     public DialogueOption option1;
     public DialogueOption option2;
-
+    public DialogueOption unlocked;
 }

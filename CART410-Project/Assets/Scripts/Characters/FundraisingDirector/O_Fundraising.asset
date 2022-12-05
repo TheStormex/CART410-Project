@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: O_Fundraising
   m_EditorClassIdentifier: 
   theOption: Can I make a donation?
-  resultingInteraction: {fileID: 0}
+  resultingInteraction: {fileID: 11400000, guid: 073b4c42010b20040861a7370bb1cb43, type: 2}
+  locked: 

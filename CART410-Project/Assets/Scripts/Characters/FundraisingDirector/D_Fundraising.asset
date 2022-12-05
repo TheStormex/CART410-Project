@@ -18,5 +18,5 @@ MonoBehaviour:
     sure we don\u2019t break any election laws regarding donations."
   nextInteraction: {fileID: 0}
   previousInteraction: {fileID: 0}
-  option1: {fileID: 0}
-  option2: {fileID: 0}
+  option1: {fileID: 11400000, guid: 753b1523890e77449b2ee37afe51582b, type: 2}
+  option2: {fileID: 11400000, guid: 8c5665f10b49cb24da8c7df85dda9685, type: 2}

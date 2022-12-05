@@ -1415,7 +1415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: da70e38f170a24546ac93aff4f715d85, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 

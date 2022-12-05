@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Communications 2
+  m_EditorClassIdentifier: 
+  theText: "Oh! That\u2019s not supposed to still be here. I\u2019m afraid the map\u2019s
+    meaning is top secret. I could tell you what it means, but then you\u2019ll have
+    to\u2026 disappear."
+  nextInteraction: {fileID: 11400000, guid: fb25be073df8304479a709e8ce683bc3, type: 2}
+  previousInteraction: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  unlocked: {fileID: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Fundraising 2
+  m_EditorClassIdentifier: 
+  theText: "Oh yes. We bought a few cheeseburgers a couple of days ago. Sadly, we
+    did not schedule when to eat them and so, when we remembered they were in the
+    fridge, they\u2019ve gone bad. Luckily, this was not a big financial loss for
+    the party."
+  nextInteraction: {fileID: 0}
+  previousInteraction: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}

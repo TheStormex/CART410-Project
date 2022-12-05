@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: O_Fundraising 1
   m_EditorClassIdentifier: 
   theOption: "What\u2019s with the burgers in the organic bin?"
-  resultingInteraction: {fileID: 0}
+  resultingInteraction: {fileID: 11400000, guid: c3cbdb535b8e6c24281d4df0c94b1ef5, type: 2}
+  locked: burgers

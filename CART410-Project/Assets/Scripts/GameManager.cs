@@ -24,15 +24,18 @@ public class GameManager : MonoBehaviour
      public AudioSource soundClick;
      public AudioSource soundEnd;
 
-    // interactables
-
-    // characters
-    public Button buttonCandidate;
-    public Button buttonCampaign;
-    public Button buttonPercy;
-    public Button buttonTanner;
-
     private GameObject currentInteractable;
+
+    // unlocked dialogue options
+    Dictionary<string, bool> lockedOptions = new Dictionary<string, bool>()
+    {
+        {"burgers", false},
+        {"map", false},
+        {"marbles", false},
+        {"propaganda", false},
+        {"pile", false},
+        {"signs", false},
+    };
 
     // Start is called before the first frame update
     void Start()
@@ -62,19 +65,45 @@ public class GameManager : MonoBehaviour
             {
                 textBoxLast.gameObject.SetActive(false);
             }
-            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1 != null && currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.locked == false)
+            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1 != null)
             {
-                textBoxButton1.gameObject.SetActive(true);
-                textBoxButton1.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.theOption;
+                if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.locked == "")
+                {
+                    textBoxButton1.gameObject.SetActive(true);
+                    textBoxButton1.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.theOption;
 
-            } else
+                }
+                else if (lockedOptions[currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.locked])
+                {
+                    textBoxButton1.gameObject.SetActive(true);
+                    textBoxButton1.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.theOption;
+                }
+                else
+                {
+                    textBoxButton1.gameObject.SetActive(false);
+                }
+            }
+            else
             {
                 textBoxButton1.gameObject.SetActive(false);
             }
-            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2 != null && currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.locked == false)
+            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2 != null)
             {
-                textBoxButton2.gameObject.SetActive(true);
-                textBoxButton2.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.theOption;
+                if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.locked == "")
+                {
+                    textBoxButton2.gameObject.SetActive(true);
+                    textBoxButton2.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.theOption;
+
+                }
+                else if (lockedOptions[currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.locked])
+                {
+                    textBoxButton2.gameObject.SetActive(true);
+                    textBoxButton2.gameObject.GetComponentInChildren<Text>().text = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.theOption;
+                }
+                else
+                {
+                    textBoxButton2.gameObject.SetActive(false);
+                }
             }
             else
             {
@@ -121,8 +150,21 @@ public class GameManager : MonoBehaviour
             {
                 playSoundIntObject();
             }
+            if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.unlocked != null)
+            {
+                unlockOption();
+                
+            }
             TextboxOpen();
         }
+    }
+
+    // if this interactable's current interaction unlocks something, go to that
+    // locked option, check it off in the dictionary
+    public void unlockOption()
+    {
+        if (lockedOptions.ContainsKey(currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.unlocked.locked))
+        lockedOptions[currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.unlocked.locked] = true;
     }
 
     // end the text box, play the end sound, remove current interactable
@@ -137,6 +179,10 @@ public class GameManager : MonoBehaviour
     // when next / finish button is clicked
     public void nextFinishButton()
     {
+        if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.unlocked != null)
+        {
+            unlockOption();
+        }
         if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.nextInteraction != null)
         {
             currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.nextInteraction;
