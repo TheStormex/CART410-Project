@@ -9,6 +9,8 @@ public class Interactable : MonoBehaviour
     public Interaction currentInteraction;
     public string currentText;
     public string interactableName;
+    public bool special;
+    public Interaction specialInteraction;
 
     private void Start()
     {

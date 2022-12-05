@@ -37,6 +37,9 @@ public class GameManager : MonoBehaviour
         {"signs", false},
     };
 
+    // the different signs, if clicked
+    private List<string> readSigns = new List<string>();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -154,6 +157,17 @@ public class GameManager : MonoBehaviour
             {
                 unlockOption();
                 
+            }
+            if (currentInteractable.gameObject.GetComponent<Interactable>().special)
+            {
+                if (readSigns.Count >= 8)
+                {
+                    currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().specialInteraction;
+                }
+                if (!readSigns.Contains(currentInteractable.gameObject.name))
+                {
+                    readSigns.Add(currentInteractable.gameObject.name);
+                }
             }
             TextboxOpen();
         }
