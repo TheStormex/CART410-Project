@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: D_candidate2
   m_EditorClassIdentifier: 
   theText: Well, the election is now over. We should know the outcome in a couple
-    of days. I would like to thank each and everyone of you for coming to volunteer
+    of days. I would like to thank each and every one of you for coming to volunteer
     your precious time because you believe in our cause and I am very grateful you
     are willing to trust in me as your representative.
   nextInteraction: {fileID: 11400000, guid: 8c78495d9c414d949a0b9dd7001f6741, type: 2}
   previousInteraction: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
+  unlocked: {fileID: 0}

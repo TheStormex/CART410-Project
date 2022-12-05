@@ -163,6 +163,7 @@ public class GameManager : MonoBehaviour
                 if (readSigns.Count >= 8)
                 {
                     currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().specialInteraction;
+                    playSoundWalk();
                 }
                 if (!readSigns.Contains(currentInteractable.gameObject.name))
                 {
