@@ -158,6 +158,7 @@ public class GameManager : MonoBehaviour
                 unlockOption();
                 
             }
+            // the special signs cake easter egg
             if (currentInteractable.gameObject.GetComponent<Interactable>().special)
             {
                 if (readSigns.Count >= 8)
@@ -226,14 +227,34 @@ public class GameManager : MonoBehaviour
     // when option 1 button is clicked
     public void option1Clicked()
     {
-        playsoundClick();
-        currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.resultingInteraction;
+        // if this is front door
+        if (currentInteractable.name == "Front Door")
+        {
+            endInteraction();
+        } else
+        {
+            playsoundClick();
+            currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.resultingInteraction;
+        }
+
     }
 
     public void option2Clicked()
     {
-        playsoundClick();
-        currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.resultingInteraction;
+        // if this is front door, quit
+        if (currentInteractable.name == "Front Door")
+        {
+            quitGame();
+        } else
+        {
+            playsoundClick();
+            currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.resultingInteraction;
+        }
+    }
+
+    public void quitGame()
+    {
+        Application.Quit();
     }
 
     // play the sounds
