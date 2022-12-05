@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theText: "I\u2019ve been part of a political youth council and I heard many of
     my fellow students say that they don\u2019t vote because they believe their vote
-    does not count.I agree with you guys that young people don\u2019t see how politics
+    does not count. I agree with you guys that young people don\u2019t see how politics
     affect them which makes them uninterested. "
   nextInteraction: {fileID: 11400000, guid: 79500dffcb6f8c940946bbaed258453f, type: 2}
   previousInteraction: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
+  unlocked: {fileID: 0}

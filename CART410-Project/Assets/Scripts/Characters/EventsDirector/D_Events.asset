@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Events
+  m_EditorClassIdentifier: 
+  theText: "Howdy, I am the events director. I am responsible for running all the
+    campaign events. Sadly, this is the end of the campaign so there are no further
+    events. We would be happy to have you for the next election\u2019s events though. "
+  nextInteraction: {fileID: 0}
+  previousInteraction: {fileID: 0}
+  option1: {fileID: 11400000, guid: 17ee45a258e8c0f49bbff5de677e3c58, type: 2}
+  option2: {fileID: 11400000, guid: c73536168676f9c41995d51f0ca9949b, type: 2}
+  unlocked: {fileID: 0}

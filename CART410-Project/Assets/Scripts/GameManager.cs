@@ -186,6 +186,7 @@ public class GameManager : MonoBehaviour
         if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.nextInteraction != null)
         {
             currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.nextInteraction;
+            playsoundClick();
         }
         else
         {
@@ -198,6 +199,7 @@ public class GameManager : MonoBehaviour
     {
         if (currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.previousInteraction != null)
         {
+            playSoundHover();
             currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.previousInteraction;
         }
         else
@@ -209,11 +211,13 @@ public class GameManager : MonoBehaviour
     // when option 1 button is clicked
     public void option1Clicked()
     {
+        playsoundClick();
         currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option1.resultingInteraction;
     }
 
     public void option2Clicked()
     {
+        playsoundClick();
         currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction = currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.option2.resultingInteraction;
     }
 

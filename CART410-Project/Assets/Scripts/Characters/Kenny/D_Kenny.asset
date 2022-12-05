@@ -15,9 +15,9 @@ MonoBehaviour:
   theText: "In my youth, my family encouraged me to vote, this created a ritual of
     voting and it stayed with me my whole life. Back in the old days, most people
     were unable to vote, such as women, prisoners, people who did not own land, etc.
-    Now, it\u2019s young people who are still restricted by the system. I want there
-    to be no minimum voting age."
+    Now, it\u2019s young people who are still restricted by the system."
   nextInteraction: {fileID: 11400000, guid: 32264b7938714014d9b0962c3629876b, type: 2}
   previousInteraction: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
+  unlocked: {fileID: 0}

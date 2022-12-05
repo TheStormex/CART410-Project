@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Field 1
+  m_EditorClassIdentifier: 
+  theText: "Sadly, it is too late to register for volunteering since it\u2019s the
+    last day. However, if you would like to do so, we are always hosting events and
+    gatherings and you\u2019re welcome to join and help out. Keep an eye out for
+    the next election, we\u2019ll be happy to have you."
+  nextInteraction: {fileID: 0}
+  previousInteraction: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  unlocked: {fileID: 0}

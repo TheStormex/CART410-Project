@@ -299,7 +299,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c8b33f7623978bb49ac1fd51bd1c9708, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2367,10 +2367,6 @@ MonoBehaviour:
   soundHover: {fileID: 53808321}
   soundClick: {fileID: 624692210}
   soundEnd: {fileID: 1317891267}
-  buttonCandidate: {fileID: 0}
-  buttonCampaign: {fileID: 0}
-  buttonPercy: {fileID: 0}
-  buttonTanner: {fileID: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -2620,7 +2616,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4987541a85a5d564f8e20b137c8ec74c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4028,7 +4024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 688542b70e8069742a7161567ec0fe81, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -4326,7 +4322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: 74ec517c50ee79f4da589b531a0e7768, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 
@@ -4668,7 +4664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87476fc7193730c4386f4ebe1f55eaf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingInteraction: {fileID: 0}
+  startingInteraction: {fileID: 11400000, guid: c36afac03ae572a48934ab7f537ee8ce, type: 2}
   currentInteraction: {fileID: 0}
   currentText: 
   interactableName: 

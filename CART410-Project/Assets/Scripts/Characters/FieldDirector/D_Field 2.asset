@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Field 2
+  m_EditorClassIdentifier: 
+  theText: 'Volunteers can go door to door or call on the phone to ask people who
+    they plan on voting for. This information is useful for us to estimate how many
+    possible voters we will have. '
+  nextInteraction: {fileID: 11400000, guid: 5272f631e65c2fd4ca4e8feeab11fe73, type: 2}
+  previousInteraction: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  unlocked: {fileID: 0}

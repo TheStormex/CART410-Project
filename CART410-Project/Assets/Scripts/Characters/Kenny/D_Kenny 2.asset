@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
   m_Name: D_Kenny 2
   m_EditorClassIdentifier: 
-  theText: "Those in power, that\u2019s who. Recently, the current government argued
-    against decreasing the voting age because study shows young people favors our
-    party, this is totally a partisanship issue. If young people can\u2019t vote,
-    they can\u2019t be candidates either, but they can go to social-political events.
-    It\u2019s time we fix this."
-  nextInteraction: {fileID: 0}
+  theText: "A lot of things are age-restricted to protect the children. However,
+    how is voting harmful? Who does this restriction actually protect? Those in power,
+    that\u2019s who."
+  nextInteraction: {fileID: 11400000, guid: 7e22920388b13b54b837f7b12f5f1cb9, type: 2}
   previousInteraction: {fileID: 11400000, guid: 32264b7938714014d9b0962c3629876b, type: 2}
   option1: {fileID: 0}
   option2: {fileID: 0}
+  unlocked: {fileID: 0}

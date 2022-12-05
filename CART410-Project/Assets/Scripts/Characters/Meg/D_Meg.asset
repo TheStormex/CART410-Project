@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
   m_Name: D_Meg
   m_EditorClassIdentifier: 
-  theText: Hi! If this is your first time voting, feel free to talk to the deskperson.
+  theText: Hi! If this is your first time voting, feel free to talk to the deskpeople.
     They were really helpful for me. It has always been difficult for me to know
     how to vote and what the parties stand for, especially when I first came here
     from a nearby area.
@@ -20,3 +20,4 @@ MonoBehaviour:
   previousInteraction: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
+  unlocked: {fileID: 0}

@@ -19,3 +19,4 @@ MonoBehaviour:
   previousInteraction: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
+  unlocked: {fileID: 11400000, guid: c73536168676f9c41995d51f0ca9949b, type: 2}

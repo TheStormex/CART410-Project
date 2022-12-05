@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
   m_Name: D_Naomie 1
   m_EditorClassIdentifier: 
-  theText: " in my experience working with political events, spending time with a
+  theText: "in my experience working with political events, spending time with a
     grassroot community and seeing the fruit of one\u2019s labor really gets people
     coming back for more."
   nextInteraction: {fileID: 0}
   previousInteraction: {fileID: 11400000, guid: e149ade901be2cb4ea0ce82f1061fcdd, type: 2}
   option1: {fileID: 0}
   option2: {fileID: 0}
+  unlocked: {fileID: 0}

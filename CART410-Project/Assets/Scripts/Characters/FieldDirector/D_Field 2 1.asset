@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
+  m_Name: D_Field 2 1
+  m_EditorClassIdentifier: 
+  theText: We can note the people who are undecided and have the candidate call them
+    directly to answer their questions. For those we know support us wholeheartedly,
+    we can then call them the day before election day to remind them to vote.
+  nextInteraction: {fileID: 0}
+  previousInteraction: {fileID: 11400000, guid: 76e7f74402c252942a49a50a1e640908, type: 2}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  unlocked: {fileID: 0}

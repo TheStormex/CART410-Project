@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049699bd0321ce14a925d8a1a968ae83, type: 3}
   m_Name: D_CompostBin 1
   m_EditorClassIdentifier: 
-  theText: "There\u2019s a few half-eaten hamburgers here."
+  theText: There are a few half-eaten hamburgers here.
   nextInteraction: {fileID: 11400000, guid: bb26a259bb843844ab87b3319333aa0e, type: 2}
   previousInteraction: {fileID: 11400000, guid: 45a32828f7bca7349a3578889e7f53b2, type: 2}
   option1: {fileID: 0}
