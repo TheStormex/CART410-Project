@@ -15,6 +15,6 @@ MonoBehaviour:
   theText: Do you want to leave?
   nextInteraction: {fileID: 0}
   previousInteraction: {fileID: 0}
-  option1: {fileID: 0}
-  option2: {fileID: 0}
+  option1: {fileID: 11400000, guid: c353a9bc90b2f684898c782840309d1d, type: 2}
+  option2: {fileID: 11400000, guid: ef5b54678eed6e3499e9db7adfe90c16, type: 2}
   unlocked: {fileID: 0}

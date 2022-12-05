@@ -181,6 +181,7 @@ public class GameManager : MonoBehaviour
     {
         if (lockedOptions.ContainsKey(currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.unlocked.locked))
         lockedOptions[currentInteractable.gameObject.GetComponent<Interactable>().currentInteraction.unlocked.locked] = true;
+        playSoundWalk();
     }
 
     // end the text box, play the end sound, remove current interactable

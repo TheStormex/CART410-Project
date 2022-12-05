@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64b392fb3b90ebe4c95c81bab54ac9aa, type: 3}
   m_Name: O_FrontDoor 1
   m_EditorClassIdentifier: 
-  theOption: 
+  theOption: No
   resultingInteraction: {fileID: 0}
   locked: 
